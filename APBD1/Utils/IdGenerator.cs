@@ -3,9 +3,14 @@
 public class IdGenerator
 {
     private static int _equipmentId = 1;
+    private static int _userId = 1;
 
-    public static int GenerateId()
+    public static int GenerateEquipmentId()
     {
         return _equipmentId++;
+    }
+    public static int GenerateUserId()
+    {
+        return _userId++;
     }
 }

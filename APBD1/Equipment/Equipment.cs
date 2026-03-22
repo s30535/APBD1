@@ -10,7 +10,7 @@ public abstract class Equipment
 
     protected Equipment(string name)
     {
-        Id = IdGenerator.GenerateId();
+        Id = IdGenerator.GenerateEquipmentId();
         Status = EquipmentStatus.Available;
         Name = name;
     }
