@@ -8,7 +8,7 @@ public abstract class User
     public string FirstName { get; set; }
     public string LastName { get; set; }
 
-    protected User(int id, string firstName, string lastName)
+    protected User(string firstName, string lastName)
     {
         Id = IdGenerator.GenerateUserId();
         FirstName = firstName;
