@@ -77,5 +77,10 @@ public class EquipmentService
 
         equipment.Status = status;
     }
+    
+    public List<EquipmentBase> GetAllEquipmentData()
+    {
+        return _equipment.ToList();
+    }
 }
 
